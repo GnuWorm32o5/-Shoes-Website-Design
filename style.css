@@ -280,7 +280,7 @@ section .main .button:hover i{
     margin-top: 20px;
     display:flex;
     align-items:center;
-    background: black;
+    color:#6c14d0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
@@ -492,3 +492,43 @@ section .main .button:hover i{
     margin-top: 15px;
 }
 
+/*Services*/
+
+.services {
+   width: 70%;
+   margin: 0 auto;
+   text-align: center;
+   padding: 75% 0 10px 0;
+}
+
+.services h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color:#6c14d0;
+}
+
+.services h1 span {
+    margin-left: 15px;
+    background: linear-gradient(to left, #c72092, #6c14d0);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;  
+    
+}
+
+.services .services_cards {
+    width: 80%;
+    margin: 0 auto;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;;
+} 
+
+.services .services_box i{
+    font-size: 60px;
+    color: orange;
+    margin: 20px 0;
+    cursor: pointer;
+
+}
